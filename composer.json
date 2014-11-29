@@ -1,0 +1,31 @@
+{
+    "name": "paslandau/ExceptionUtility",
+    "license": "MIT",
+    "description" : "Library to extend PHP core functions by common (missing) functions to deal with exceptions",
+    "authors": [
+        {
+            "name": "Pascal Landau",
+            "email": "kontakt@myseosolution.de",
+            "homepage": "http://www.myseosolution.de",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+	    "psr-4": {
+	        "paslandau\\ExceptionUtility\\": "src/"
+	    }
+	},
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/paslandau/ArrayUtility.git"
+        }
+    ],
+    "require" : {
+        "php": "~5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3",
+        "paslandau/ArrayUtility": "~0"
+    }
+}
