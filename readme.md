@@ -1,5 +1,5 @@
-#ExceptionUtility
-[![Build Status](https://travis-ci.org/paslandau/ExceptionUtility.svg?branch=master)](https://travis-ci.org/paslandau/ExceptionUtility)
+#exception-utility
+[![Build Status](https://travis-ci.org/paslandau/exception-utility.svg?branch=master)](https://travis-ci.org/paslandau/exception-utility)
 
 Library to extend PHP core functions by common (missing) functions to deal with exceptions
 
@@ -12,7 +12,7 @@ Library to extend PHP core functions by common (missing) functions to deal with 
 
 ##Installation
 
-The recommended way to install ExceptionUtility is through [Composer](http://getcomposer.org/).
+The recommended way to install exception-utility is through [Composer](http://getcomposer.org/).
 
     curl -sS https://getcomposer.org/installer | php
 
@@ -22,11 +22,11 @@ Next, update your project's composer.json file to include ExceptionUtility:
         "repositories": [
             {
                 "type": "git",
-                "url": "https://github.com/paslandau/ExceptionUtility.git"
+                "url": "https://github.com/paslandau/exception-utility.git"
             }
         ],
         "require": {
-             "paslandau/ExceptionUtility": "~0"
+             "paslandau/exception-utility": "~0"
         }
     }
 
