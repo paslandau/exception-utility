@@ -19,14 +19,10 @@ The recommended way to install exception-utility is through [Composer](http://ge
 Next, update your project's composer.json file to include ExceptionUtility:
 
     {
-        "repositories": [
-            {
-                "type": "git",
-                "url": "https://github.com/paslandau/exception-utility.git"
-            }
-        ],
+        "repositories": [ { "type": "composer", "url": "http://packages.myseosolution.de/"} ],
+        "minimum-stability": "dev",
         "require": {
-             "paslandau/exception-utility": "~0"
+             "paslandau/exception-utility": "dev-master"
         }
     }
 
